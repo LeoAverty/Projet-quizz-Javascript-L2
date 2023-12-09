@@ -1,0 +1,72 @@
+body {
+  background-color: #3497db; /* Fond bleu */
+  color: white; /* Texte blanc */
+  font-family: Arial, sans-serif; /* Police de caractères */
+}
+
+.main-list {
+  list-style-position: inside;
+  list-style-type: number;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+#quiz-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* Fond blanc pour le formulaire */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.alert-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#alert {
+  padding: 30px;
+  width: fit-content;
+  border-radius: 5px;
+  display: none;
+  color: #27ae60;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 570px;
+  background-color: #505050;
+  border: solid 5px #27ae60;
+  border-radius: 5px;
+}
+
+.question-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #297fb8; /* Fond bleu foncé */
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.answer-item {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #27ae60; /* Fond vert */
+  color: #fff; /* Texte blanc */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2ecc71; /* Fond vert clair au survol */
+}

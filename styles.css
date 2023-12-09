@@ -42,7 +42,7 @@ ol {
   top: 570px;
   background-color: #505050;
   border: solid 5px #27ae60;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .question-item {
